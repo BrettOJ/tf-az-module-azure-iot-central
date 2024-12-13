@@ -17,5 +17,6 @@ variable "display_name" {
 variable "parent_organization_id" {
   description = "The organization_id of the parent organization."
   type = string
+  default = null
 }
 

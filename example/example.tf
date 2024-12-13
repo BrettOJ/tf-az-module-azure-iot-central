@@ -41,6 +41,7 @@ module "azure_iotcentral_organization_parent" {
   iotcentral_application_id = module.azure_iotcentral_application.iotc_app_output.id
   organization_id           = var.organization_id
   display_name              = var.display_name_parent
+  parent_organization_id    = null
 }
 
 module "azure_iotcentral_organization_child" {
